@@ -33,7 +33,6 @@ def read_json_data():
                     print(f"E-mailadress: {email}")
                     print("\n")
                     i=i+1
-            input("Tryck på enter för att komma tillbaka till huvudmenyn")
             break
         except FileNotFoundError:
             try:
