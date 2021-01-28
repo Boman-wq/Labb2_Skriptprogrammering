@@ -85,7 +85,6 @@ def remove_person_from_list(time_stamp):
     for list_obj in obj:
         if i == int(delete_data):
             pass
-            i=i+1
         else:
             new_data.append(list_obj)
             i=i+1
