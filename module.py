@@ -33,6 +33,7 @@ def read_json_data():
                     print(f"E-mailadress: {email}")
                     print("\n")
                     i=i+1
+            input("Tryck på enter för att komma tillbaka till huvudmenyn")
             break
         except FileNotFoundError:
             try:
@@ -78,7 +79,7 @@ def remove_person_from_list(time_stamp):
     with open(json_file_path, "r", encoding="utf-8") as file:
         obj = json.load(file)
         index_length = len(obj)-1
-    print("Vilket indexnummer vill du ta bort?")
+    print("Vilket index vill du ta bort?")
     print(f"välj ett nummer mellan 0-{index_length}\n")
     delete_data = int_check(index_length)
     i=0
