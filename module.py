@@ -77,10 +77,10 @@ def remove_person_from_list(time_stamp):
     new_data = []
     with open(json_file_path, "r", encoding="utf-8") as file:
         obj = json.load(file)
-        data_length = len(obj)-1
+        index_length = len(obj)-1
     print("Vilket indexnummer vill du ta bort?")
-    print(f"välj ett nummer mellan 0-{data_length}\n")
-    delete_data = int_check(data_length)
+    print(f"välj ett nummer mellan 0-{index_length}\n")
+    delete_data = int_check(index_length)
     i=0
     for list_obj in obj:
         if i == int(delete_data):
