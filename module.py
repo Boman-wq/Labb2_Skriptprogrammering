@@ -1,5 +1,5 @@
 import csv, json, os
-####### Globala Variablar (Fixa Namnen på variablerna, Ska det vara camelCase eller snake_case???)#######
+#######Globala Variablar#######
 csv_file_path = "labb2-personer.csv"
 json_file_path = "labb2_personer.json"
 json_startup_file = "labb2_personer.json"
